@@ -1,0 +1,12 @@
+specVersion: "v1beta"
+serviceId: "Module_10R_SIPMOL24054_fto2410_GroupA_Sipho-Molele_SDF10_R"
+location: "us-central1"
+schema:
+  source: "./schema"
+  datasource:
+    postgresql:
+      database: "fdcdb"
+      cloudSql:
+        instanceId: "Module_10R_SIPMOL24054_fto2410_GroupA_Sipho-Molele_SDF10_R-fdc"
+      # schemaValidation: "COMPATIBLE"
+connectorDirs: ["./connector"]
